@@ -8,12 +8,12 @@ function getRandomHexColor() {
 
 function setToTrue() {
   isChanging = true;
-  startButton.style.opacity = '50%';
+  startButton.disabled = true;
 }
 
 function setToFalse() {
   isChanging = false;
-  startButton.style.opacity = '100%';
+  startButton.disabled = false;
 }
 
 setInterval(() => {
